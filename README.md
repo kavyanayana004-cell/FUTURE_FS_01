@@ -150,8 +150,8 @@ DELETE /api/leads/:id
 
 Dashboard
 GET /api/dashboard
+## 📸 Dashboard View
 
-Dashboard view
 ![Dashboard](./frontend/src/assets/CrmDashboard.png)
 
 Customer page
