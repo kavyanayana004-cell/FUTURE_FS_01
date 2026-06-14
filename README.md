@@ -148,25 +148,6 @@ POST /api/leads
 PUT /api/leads/:id
 DELETE /api/leads/:id
 
-Dashboard
-GET /api/dashboard
-## 📸 Dashboard View
-
-![Dashboard](CrmDashboard.png)
-
-Customer page
-frontend/src/assets/CrmCustomerPage.png
-
-Leads Page
-frontend/src/assets/CrmLeadPage.png
-
-Reports Page
-frontend/src/assets/CrmReportsPage.png
-
-Settings Page
-frontend/src/assets/CrmSettingsPage.png
-
-
 🧑‍💻 Author
 Name: Kavya R
 GitHub: https://github.com/kavyanayana004-cell
