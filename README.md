@@ -152,7 +152,7 @@ Dashboard
 GET /api/dashboard
 
 Dashboard view
-frontend/src/assets/CrmDashboard.png
+![Dashboard](./frontend/src/assets/CrmDashboard.png)
 
 Customer page
 frontend/src/assets/CrmCustomerPage.png
