@@ -115,11 +115,13 @@ backend/
 ### Steps
 
 1. Clone the Repository
-git clone <https://github.com/kavyanayana004-cell/FUTURE_FS_01.git>
+
+git clone <[repository-url](https://github.com/kavyanayana004-cell/FUTURE_FS_01)>
 
 ---
 
 2. Setup Backend
+
 Bash
 cd backend
 npm install
@@ -127,16 +129,24 @@ npm start
 
 Create .env file:
 
+---
+
 3. Setup Frontend
+
 Bash
 cd frontend
 npm install
 npm run dev
 
+---
+
 🔗 API Endpoints
+
 Auth Routes
 POST /api/auth/login
 POST /api/auth/register
+
+---
 
 Leads Routes
 GET /api/leads
@@ -144,16 +154,27 @@ POST /api/leads
 PUT /api/leads/:id
 DELETE /api/leads/:id
 
-🧑‍💻 Author
-Name: Kavya R
-Frontend Developer | Web Development Enthusiast
+---
 
 📌 Notes
-This project is created for learning purpose.
-Make sure MongoDB is running before starting backend.
+- This project is created for learning purpose.
+- Make sure MongoDB is running before starting backend.
 
-⭐ Future Improvements
-Add role-based access (Admin/User)
-Add email notifications
-Improve UI with modern dashboard design
-Deploy on Vercel + Render - in simpler for readme
+---
+
+🔮 Future Enhancements
+
+- Add role-based access (Admin/User)
+- Add email notifications
+- Improve UI with modern dashboard design
+- Deploy on Vercel + Render - in simpler for readme
+
+---
+
+👩‍💻 Author
+
+Kavya R
+
+Frontend Developer | Web Development Enthusiast
+
+---
