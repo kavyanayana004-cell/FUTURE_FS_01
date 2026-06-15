@@ -114,13 +114,12 @@ backend/
 
 ### Steps
 
-1️⃣ Clone the Repository
-```bash id="crmstep1"
-git clone https://github.com/kavyanayana004-cell/FUTURE_FS_01.git
+1. Clone the Repository
+git clone <https://github.com/kavyanayana004-cell/FUTURE_FS_01.git>
 
 ---
 
-2️⃣ Setup Backend
+2. Setup Backend
 Bash
 cd backend
 npm install
@@ -128,7 +127,7 @@ npm start
 
 Create .env file:
 
-3️⃣ Setup Frontend
+3. Setup Frontend
 Bash
 cd frontend
 npm install
@@ -147,7 +146,7 @@ DELETE /api/leads/:id
 
 🧑‍💻 Author
 Name: Kavya R
-GitHub: https://github.com/kavyanayana004-cell
+Frontend Developer | Web Development Enthusiast
 
 📌 Notes
 This project is created for learning purpose.
