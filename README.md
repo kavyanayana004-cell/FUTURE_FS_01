@@ -118,8 +118,6 @@ backend/
 
 git clone <[repository-url](https://github.com/kavyanayana004-cell/FUTURE_FS_01)>
 
----
-
 2. Setup Backend
 
 Bash
@@ -128,8 +126,6 @@ npm install
 npm start
 
 Create .env file:
-
----
 
 3. Setup Frontend
 
@@ -145,8 +141,6 @@ npm run dev
 Auth Routes
 POST /api/auth/login
 POST /api/auth/register
-
----
 
 Leads Routes
 GET /api/leads
