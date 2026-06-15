@@ -53,7 +53,6 @@ backend/
 ⚙️ Setup Instructions
 1. Clone the repo
 git clone https://github.com/kavyanayana004-cell/FUTURE_FS_01.git
-cd FUTURE_FS_01
 
 
 2. Backend setup
