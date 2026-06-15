@@ -1,5 +1,3 @@
-:
-
 🧾 Mini CRM (MERN Stack)
 
 A simple Customer Relationship Management (CRM) web app built using the MERN stack to manage leads, customers, and tasks efficiently.
