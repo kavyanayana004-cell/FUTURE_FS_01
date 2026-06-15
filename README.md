@@ -116,23 +116,23 @@ backend/
 
 1. Clone the Repository
 
-git clone <[repository-url](https://github.com/kavyanayana004-cell/FUTURE_FS_01)>
+  git clone <[repository-url](https://github.com/kavyanayana004-cell/FUTURE_FS_01)>
 
 2. Setup Backend
 
-Bash
-cd backend
-npm install
-npm start
+  Bash
+  cd backend
+  npm install
+  npm start
 
 Create .env file:
 
 3. Setup Frontend
 
-Bash
-cd frontend
-npm install
-npm run dev
+  Bash
+  cd frontend
+  npm install
+  npm run dev
 
 ---
 
