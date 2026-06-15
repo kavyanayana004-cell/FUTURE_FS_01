@@ -5,6 +5,7 @@
 A simple Customer Relationship Management (CRM) web app built using the MERN stack to manage leads, customers, and tasks efficiently.
 
 🚀 Features
+
 🔐 Authentication
 User login & registration
 Protected routes
