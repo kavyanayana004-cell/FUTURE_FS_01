@@ -1,94 +1,160 @@
-🧾 Mini CRM (MERN Stack)
+# 🧾 Mini CRM (Customer Relationship Management System)
 
-A simple Customer Relationship Management (CRM) web app built using the MERN stack to manage leads, customers, and tasks efficiently.
+A full-stack Mini CRM web application built using the MERN stack. This project helps manage customers, leads, tasks, and basic business operations in a simple and efficient way.
 
-🚀 Features
+---
 
-🔐 Authentication
-User login & registration
-Protected routes
+## 🚀 Live Overview
 
+Mini CRM allows users to:
+- Manage customer data
+- Track leads and their status
+- Assign and monitor tasks
+- View dashboard analytics
+- Perform search and filtering operations
 
-📊 Dashboard
-Overview of customers, leads, and tasks
-Quick business insights
+---
 
-👥 Leads Management
-Add, update, delete leads
-Track lead status (New, Contacted, Converted)
-Search & filter leads
+## ✨ Features
 
+### 🔐 Authentication
+- Login & Logout
+- Protected routes using middleware
 
-🧑 Customers
-Store and manage customer details
-View customer information
+### 📊 Dashboard
+- Overview of total leads, customers, and tasks
+- Quick insights into CRM activity
 
+### 👥 Leads Management
+- Add new leads
+- Update lead status (New, Contacted, Converted, etc.)
+- Delete leads
+- Search leads easily
 
-✅ Tasks
-Create and assign tasks
-Track task status (Pending / Completed)
+### 🧑 Customers Module
+- Store and manage customer details
+- View customer history
 
+### ✅ Task Management
+- Create tasks
+- Assign tasks
+- Track completion status
 
-🛠️ Tech Stack
-Frontend: React.js + Vite + CSS
-Backend: Node.js + Express.js
-Database: MongoDB 
+### 🔎 Search Functionality
+- Fast search for leads and customers
 
+---
 
-📁 Project Structure
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+---
+
+## 📁 Project Structure
 frontend/
-  src/
-    components/
-    pages/
-    api/
-backend/
-  config/
-  models/
-  routes/
-  middleware/
+├── src/
+│   ├── api/
+│   ├── assets/
+│   ├── components/
+│   │   ├── AddLeadForm.jsx
+│   │   ├── LeadTable.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── StatsCard.jsx
+│   ├── pages/
+│   │   ├── Customers.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Leads.jsx
+│   │   ├── Login.jsx
+│   │   ├── Reports.jsx
+│   │   └── Settings.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── public/
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
 
-  
-⚙️ Setup Instructions
-1. Clone the repo
+
+backend/
+├── config/
+│   └── db.js
+├── middleware/
+│   └── auth.js
+├── models/
+│   ├── Customer.js
+│   ├── Lead.js
+│   ├── Task.js
+│   └── User.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── dashboardRoutes.js
+│   └── leadRoutes.js
+├── server.js
+├── package.json
+├── package-lock.json
+
+## ⚙️ Installation & Setup Instructions
+
+### Steps
+
+1️⃣ Clone the Repository
+```bash id="crmstep1"
 git clone https://github.com/kavyanayana004-cell/FUTURE_FS_01.git
 
+---
 
-2. Backend setup
+2️⃣ Setup Backend
+Bash
 cd backend
 npm install
 npm start
 
+Create .env file:
 
-3. Frontend setup
+3️⃣ Setup Frontend
+Bash
 cd frontend
 npm install
 npm run dev
 
-
 🔗 API Endpoints
-Auth
+Auth Routes
 POST /api/auth/login
 POST /api/auth/register
-Leads
+
+Leads Routes
 GET /api/leads
 POST /api/leads
 PUT /api/leads/:id
 DELETE /api/leads/:id
 
-
-🚀 Deployment (Simple Version)
-Frontend: Vercel
-Backend: Render
-Database: MongoDB Compass
-
-
-👩‍💻 Author
+🧑‍💻 Author
 Name: Kavya R
-GitHub: kavyanayana004-cell
+GitHub: https://github.com/kavyanayana004-cell
 
+📌 Notes
+This project is created for learning purpose.
+Make sure MongoDB is running before starting backend.
 
 ⭐ Future Improvements
-Role-based access (Admin/User)
-Email notifications
-Better UI dashboard design
-Analytics charts & reports
+Add role-based access (Admin/User)
+Add email notifications
+Improve UI with modern dashboard design
+Deploy on Vercel + Render - in simpler for readme
